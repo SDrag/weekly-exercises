@@ -1,5 +1,5 @@
 # Exercises
-Weekly exercises for Programming and scripting module
+Weekly exercises for 'Programming and Scripting', module
 
 FileName | Comment 
 -------- | -------
