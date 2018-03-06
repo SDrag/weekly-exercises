@@ -12,4 +12,5 @@ with open("data/iris.csv") as srcFile:
 # Since 'cells' is a list of strings, I'm converting them to floats 
 # so I can use floating format just as an exercise (it would be the same result 
 # if I just print them as they are because they are all the same length):
-        print('{:1.1f} {:1.1f} {:1.1f} {:1.1f}'.format(float(cells[0]),float(cells[1]),float(cells[2]),float(cells[3])))
+        print('{:1.1f} {:1.1f} {:1.1f} {:1.1f}'.format(float(cells[2]),float(cells[3]),float(cells[0]),float(cells[1])))
+    
