@@ -15,8 +15,9 @@ except ValueError:
 	print("That's not what I've asked for! Will use", defaultVal, "instead.")
 	val = defaultVal
 
-# Applying Collatz conjecture until it reaches 1
+# Applying Collatz conjecture until it reaches 1:
 while val > 1:
+	# Print current member:
 	print(val, end=', ')
 	if val % 2 == 0:
 		val = int(val / 2)
